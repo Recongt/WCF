@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Library" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_listOfBooks_InputMessage">
+    <wsdl:part name="parameters" element="tns:listOfBooks" />
+  </wsdl:message>
+  <wsdl:message name="IService1_listOfBooks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:listOfBooksResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_connectToLibrary_InputMessage">
+    <wsdl:part name="parameters" element="tns:connectToLibrary" />
+  </wsdl:message>
+  <wsdl:message name="IService1_connectToLibrary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:connectToLibraryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_listOfBorrowedItems_InputMessage">
+    <wsdl:part name="parameters" element="tns:listOfBorrowedItems" />
+  </wsdl:message>
+  <wsdl:message name="IService1_listOfBorrowedItems_OutputMessage">
+    <wsdl:part name="parameters" element="tns:listOfBorrowedItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_listOfBorrowedItems_BookExceptionsFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/Library" name="detail" element="q1:BookExceptions" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getUserBorrowedBooks_InputMessage">
+    <wsdl:part name="parameters" element="tns:getUserBorrowedBooks" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getUserBorrowedBooks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getUserBorrowedBooksResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getUserBorrowedBooks_BookExceptionsFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/Library" name="detail" element="q2:BookExceptions" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getBookInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:getBookInfo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getBookInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getBookInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getBookInfo_BookExceptionsFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/Library" name="detail" element="q3:BookExceptions" />
+  </wsdl:message>
+  <wsdl:message name="IService1_borrowBook_InputMessage">
+    <wsdl:part name="parameters" element="tns:borrowBook" />
+  </wsdl:message>
+  <wsdl:message name="IService1_borrowBook_OutputMessage">
+    <wsdl:part name="parameters" element="tns:borrowBookResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_borrowBook_BookExceptionsFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/Library" name="detail" element="q4:BookExceptions" />
+  </wsdl:message>
+  <wsdl:message name="IService1_giveBook_InputMessage">
+    <wsdl:part name="parameters" element="tns:giveBook" />
+  </wsdl:message>
+  <wsdl:message name="IService1_giveBook_OutputMessage">
+    <wsdl:part name="parameters" element="tns:giveBookResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_giveBook_BookExceptionsFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/Library" name="detail" element="q5:BookExceptions" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="listOfBooks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/listOfBooks" message="tns:IService1_listOfBooks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/listOfBooksResponse" message="tns:IService1_listOfBooks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="connectToLibrary">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/connectToLibrary" message="tns:IService1_connectToLibrary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/connectToLibraryResponse" message="tns:IService1_connectToLibrary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="listOfBorrowedItems">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/listOfBorrowedItems" message="tns:IService1_listOfBorrowedItems_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/listOfBorrowedItemsResponse" message="tns:IService1_listOfBorrowedItems_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/listOfBorrowedItemsBookExceptionsFault" name="BookExceptionsFault" message="tns:IService1_listOfBorrowedItems_BookExceptionsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserBorrowedBooks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getUserBorrowedBooks" message="tns:IService1_getUserBorrowedBooks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getUserBorrowedBooksResponse" message="tns:IService1_getUserBorrowedBooks_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/getUserBorrowedBooksBookExceptionsFault" name="BookExceptionsFault" message="tns:IService1_getUserBorrowedBooks_BookExceptionsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getBookInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getBookInfo" message="tns:IService1_getBookInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getBookInfoResponse" message="tns:IService1_getBookInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/getBookInfoBookExceptionsFault" name="BookExceptionsFault" message="tns:IService1_getBookInfo_BookExceptionsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="borrowBook">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/borrowBook" message="tns:IService1_borrowBook_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/borrowBookResponse" message="tns:IService1_borrowBook_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/borrowBookBookExceptionsFault" name="BookExceptionsFault" message="tns:IService1_borrowBook_BookExceptionsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="giveBook">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/giveBook" message="tns:IService1_giveBook_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/giveBookResponse" message="tns:IService1_giveBook_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/giveBookBookExceptionsFault" name="BookExceptionsFault" message="tns:IService1_giveBook_BookExceptionsFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="listOfBooks">
+      <soap:operation soapAction="http://tempuri.org/IService1/listOfBooks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="connectToLibrary">
+      <soap:operation soapAction="http://tempuri.org/IService1/connectToLibrary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listOfBorrowedItems">
+      <soap:operation soapAction="http://tempuri.org/IService1/listOfBorrowedItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BookExceptionsFault">
+        <soap:fault use="literal" name="BookExceptionsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUserBorrowedBooks">
+      <soap:operation soapAction="http://tempuri.org/IService1/getUserBorrowedBooks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BookExceptionsFault">
+        <soap:fault use="literal" name="BookExceptionsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getBookInfo">
+      <soap:operation soapAction="http://tempuri.org/IService1/getBookInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BookExceptionsFault">
+        <soap:fault use="literal" name="BookExceptionsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="borrowBook">
+      <soap:operation soapAction="http://tempuri.org/IService1/borrowBook" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BookExceptionsFault">
+        <soap:fault use="literal" name="BookExceptionsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="giveBook">
+      <soap:operation soapAction="http://tempuri.org/IService1/giveBook" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BookExceptionsFault">
+        <soap:fault use="literal" name="BookExceptionsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfRso/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

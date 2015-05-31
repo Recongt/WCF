@@ -1,0 +1,17 @@
+E:\studia\RSO\WCFRSO\LibraryClient\bin\Debug\LibraryClient.exe.config
+E:\studia\RSO\WCFRSO\LibraryClient\bin\Debug\LibraryClient.exe
+E:\studia\RSO\WCFRSO\LibraryClient\bin\Debug\LibraryClient.pdb
+E:\studia\RSO\WCFRSO\LibraryClient\obj\Debug\LibraryClient.exe
+E:\studia\RSO\WCFRSO\LibraryClient\obj\Debug\LibraryClient.pdb
+C:\Users\Adam\Desktop\WCF\WCFLibrary.git\LibraryClient\bin\Debug\LibraryClient.exe.config
+C:\Users\Adam\Desktop\WCF\WCFLibrary.git\LibraryClient\obj\Debug\LibraryClient.exe
+C:\Users\Adam\Desktop\WCF\WCFLibrary.git\LibraryClient\obj\Debug\LibraryClient.pdb
+C:\Users\Adam\Desktop\WCF\WCFLibrary.git\LibraryClient\bin\Debug\LibraryClient.exe
+C:\Users\Adam\Desktop\WCF\WCFLibrary.git\LibraryClient\bin\Debug\LibraryClient.pdb
+C:\Users\Adam\Desktop\WCF\WCFLibrary.git\LibraryClient\obj\Debug\LibraryClient.csprojResolveAssemblyReference.cache
+H:\WCFLibrary\LibraryClient\bin\Debug\LibraryClient.exe.config
+H:\WCFLibrary\LibraryClient\obj\Debug\LibraryClient.exe
+H:\WCFLibrary\LibraryClient\obj\Debug\LibraryClient.pdb
+C:\Users\Adam\Desktop\WCFLibrary\LibraryClient\bin\Debug\LibraryClient.exe.config
+C:\Users\Adam\Desktop\WCFLibrary\LibraryClient\obj\Debug\LibraryClient.exe
+C:\Users\Adam\Desktop\WCFLibrary\LibraryClient\obj\Debug\LibraryClient.pdb

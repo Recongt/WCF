@@ -1,0 +1,16 @@
+E:\studia\RSO\WCFRSO\WcfRso\bin\Release\WcfRso.dll.config
+E:\studia\RSO\WCFRSO\WcfRso\bin\Release\WcfRso.dll
+E:\studia\RSO\WCFRSO\WcfRso\bin\Release\WcfRso.pdb
+E:\studia\RSO\WCFRSO\WcfRso\obj\Release\WcfRso.dll
+E:\studia\RSO\WCFRSO\WcfRso\obj\Release\WcfRso.pdb
+E:\studia\RSO\WCFRSO\Library\bin\Release\Library.dll.config
+E:\studia\RSO\WCFRSO\Library\bin\Release\Library.dll
+E:\studia\RSO\WCFRSO\Library\bin\Release\Library.pdb
+E:\studia\RSO\WCFRSO\Library\obj\Release\Library.dll
+E:\studia\RSO\WCFRSO\Library\obj\Release\Library.pdb
+C:\Users\Adam\Desktop\WCFLibrary\Library\bin\Release\Library.dll.config
+C:\Users\Adam\Desktop\WCFLibrary\Library\bin\Release\Library.dll
+C:\Users\Adam\Desktop\WCFLibrary\Library\bin\Release\Library.pdb
+C:\Users\Adam\Desktop\WCFLibrary\Library\obj\Release\Library.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\WCFLibrary\Library\obj\Release\Library.dll
+C:\Users\Adam\Desktop\WCFLibrary\Library\obj\Release\Library.pdb

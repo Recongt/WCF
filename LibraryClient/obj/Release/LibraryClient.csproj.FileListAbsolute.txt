@@ -1,0 +1,17 @@
+E:\studia\RSO\WCFRSO\WcfClientConsole\bin\Release\WcfClientConsole.exe.config
+E:\studia\RSO\WCFRSO\WcfClientConsole\bin\Release\WcfClientConsole.exe
+E:\studia\RSO\WCFRSO\WcfClientConsole\bin\Release\WcfClientConsole.pdb
+E:\studia\RSO\WCFRSO\WcfClientConsole\obj\Release\LibraryClient.csprojResolveAssemblyReference.cache
+E:\studia\RSO\WCFRSO\WcfClientConsole\obj\Release\WcfClientConsole.exe
+E:\studia\RSO\WCFRSO\WcfClientConsole\obj\Release\WcfClientConsole.pdb
+E:\studia\RSO\WCFRSO\LibraryClient\bin\Release\LibraryClient.exe.config
+E:\studia\RSO\WCFRSO\LibraryClient\bin\Release\LibraryClient.exe
+E:\studia\RSO\WCFRSO\LibraryClient\bin\Release\LibraryClient.pdb
+E:\studia\RSO\WCFRSO\LibraryClient\obj\Release\LibraryClient.exe
+E:\studia\RSO\WCFRSO\LibraryClient\obj\Release\LibraryClient.pdb
+C:\Users\Adam\Desktop\WCFLibrary\LibraryClient\bin\Release\LibraryClient.exe.config
+C:\Users\Adam\Desktop\WCFLibrary\LibraryClient\obj\Release\LibraryClient.exe
+C:\Users\Adam\Desktop\WCFLibrary\LibraryClient\obj\Release\LibraryClient.pdb
+C:\Users\Adam\Desktop\WCFLibrary\LibraryClient\bin\Release\LibraryClient.exe
+C:\Users\Adam\Desktop\WCFLibrary\LibraryClient\bin\Release\LibraryClient.pdb
+C:\Users\Adam\Desktop\WCFLibrary\LibraryClient\obj\Release\LibraryClient.csprojResolveAssemblyReference.cache

@@ -1,0 +1,17 @@
+E:\studia\RSO\WCFRSO\Library\bin\Debug\Library.dll.config
+E:\studia\RSO\WCFRSO\Library\bin\Debug\Library.dll
+E:\studia\RSO\WCFRSO\Library\bin\Debug\Library.pdb
+E:\studia\RSO\WCFRSO\Library\obj\Debug\Library.dll
+E:\studia\RSO\WCFRSO\Library\obj\Debug\Library.pdb
+C:\Users\Adam\Desktop\WCF\WCFLibrary.git\Library\bin\Debug\Library.dll.config
+C:\Users\Adam\Desktop\WCF\WCFLibrary.git\Library\bin\Debug\Library.dll
+C:\Users\Adam\Desktop\WCF\WCFLibrary.git\Library\bin\Debug\Library.pdb
+C:\Users\Adam\Desktop\WCF\WCFLibrary.git\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\WCF\WCFLibrary.git\Library\obj\Debug\Library.dll
+C:\Users\Adam\Desktop\WCF\WCFLibrary.git\Library\obj\Debug\Library.pdb
+C:\Users\Adam\Desktop\WCFLibrary\Library\bin\Debug\Library.dll.config
+C:\Users\Adam\Desktop\WCFLibrary\Library\bin\Debug\Library.dll
+C:\Users\Adam\Desktop\WCFLibrary\Library\bin\Debug\Library.pdb
+C:\Users\Adam\Desktop\WCFLibrary\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\WCFLibrary\Library\obj\Debug\Library.dll
+C:\Users\Adam\Desktop\WCFLibrary\Library\obj\Debug\Library.pdb
